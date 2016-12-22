@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">MovieFlix</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="Home.html" class="fa fa-home">Home</a></li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+
+            <li class="active"><a href="SignUp.html"><span class="glyphicon glyphicon-user"></span> SignUp</a></li>
+
+        </ul>
+
+    </div>
+
+</nav>
+<div class="top">
+<h1> Please SignUp</h1>
+    <legend>
+<form name="signupform" method="post">
+    <div class="alignment">
+    <p>
+        <lable for="firstname"><b>FirstName</b></lable>
+        <input type="text" id="FirstName" placeholder="Enter FirstName" name="fname" required/>
+        <br>
+    </p>
+
+    <p>
+        <lable for="lasttname"><b>LasttName</b></lable>
+        <input type="text" id="lastName" placeholder="Enter lastName" name="lname" required/>
+        <br>    </p>
+
+    <p>
+        <lable for="emailid"><b>Email Id</b></lable>
+        <input type="email" id="emailid" placeholder="Enter emailid" required/>
+        <br>
+
+    </p>
+
+    <p>
+        <lable for="password"><b>Password</b></lable>
+        <input id="password" type="password"  placeholder="Enter Password" name="pwd" maxlength="8"/>
+        <br>
+    </p>
+<p>
+    <label >Gender:</label>
+    <input type="radio" name="Ugender"> Male</input>
+    <input type="radio" name="Ugender"> Female</input>
+    <br>
+</p>
+<p>
+    <button type="submit">Submit</button>
+</p>
+
+</form>
+
+    </legend>
+</div>
+
+
+</body>
+
+</html>

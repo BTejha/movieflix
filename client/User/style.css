@@ -1,0 +1,46 @@
+body{
+
+   background-image: url("https://s-media-cache-ak0.pinimg.com/originals/1b/7c/80/1b7c80caca36542330e8b19ae2c2dc4a.jpg");
+}
+input[type=search]{
+    width: 250px;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('http://jsphotoservice.com/assets/themes/default/images/search.icon.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.top{
+    margin-top: 70px;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    border: #1dff21;
+}
+
+h1,p{
+    text-align: center;
+    font-size: small;
+}
+
+#username,#password {
+
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}

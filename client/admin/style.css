@@ -1,0 +1,26 @@
+body{
+    background-image: url("https://i.ytimg.com/vi/S_NH2ZdfVXk/maxresdefault.jpg");
+
+}
+input[type=search]{
+    width: 250px;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('http://jsphotoservice.com/assets/themes/default/images/search.icon.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+form{
+    list-style-position: inside;
+}
+
+
+table{
+    text-align: center;
+    width: 100%;
+    border: #1dff21;
+
+
+
+
+}
