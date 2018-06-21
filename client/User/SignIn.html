@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SingIn</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">MovieFlix</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="Home.html" class="fa fa-home">Home</a></li>
+
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+
+            <li class="active"><a href="Signin.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+
+    </div>
+
+</nav>
+
+<h1>Login Form </h1>
+
+<fieldset>
+
+    <form name="myform" method= "post">
+        <div class="container top">
+            <p>
+                <lable for="username"><b>Username</b></lable>
+                <input type="text" id="username" placeholder="Enter Username" name="uname" required/><br>
+            </p>
+
+            <p>
+                <lable for="password"><b>Password</b></lable>
+                <input id="password" type="password"  placeholder="Enter Password" name="pwd" maxlength="8"/>
+                <br>
+            </p>
+            <p>
+                <input type="checkbox" checked="checked"> Remember me
+
+            </p>
+
+
+            <p>
+            <button type="submit">Login</button>
+            </p>
+
+        </div>
+
+        <div>
+            <p>
+            <a id="link-forgot-password" href="https://www.google.com/" class=need-help > forgot passward?</a>
+            </p>
+
+
+
+        </div>
+
+
+</fieldset>
+</body>
+</html>
